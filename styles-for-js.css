@@ -1,0 +1,98 @@
+@font-face {
+    font-family: Roboto;
+    src: url("/fonts/Roboto.ttf");
+  }
+  
+  @font-face {
+    font-family: Roboto Mono;
+    src: url("/fonts/RobotoMono-VariableFont_wght.ttf");
+  }
+    
+  @font-face {
+    font-family: Montserrat;
+    src: url("/fonts/Montserrat-Regular.ttf");
+  }
+    
+  @font-face {
+    font-family: SFMono;
+    src: url("/fonts/SFMono-Regular.otf");
+  }
+  
+  .cheatography {
+    width: 220px;
+    height: 80px;
+    background: rgb(43, 42, 42);
+    color: white;
+    justify-content: center ;
+    padding-top: 12px;
+    margin-left: 25px;
+    margin-top: 30px;
+    display: flex;
+  }
+  
+  header {
+    display: flex;
+    margin-bottom: 25px;
+  }
+  
+  .introduction {
+    margin-left: 25px;
+    margin-top: 30px;
+    font-family: Montserrat;
+  }
+  
+  .made-by {
+    margin-top: -20px;
+  }
+  
+  span {
+    color: lightskyblue;
+  }
+  
+  .main-container {
+    display: flex;
+    margin-left: 25px;
+    /* background: purple; */
+    height: 100vw;
+    width: 96vw;
+  }
+  
+  .first-container {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    height: 1500px;
+    background: rgb(145, 70, 214);
+  }
+  
+  .column-container + .column-container {
+    margin-top: 20px;
+  }
+  
+  .column-container {
+    width: 400px;
+    height: 320px;
+    background: lightskyblue;
+    border-radius: 10px;
+  }
+  
+  .column-container h3 {
+    font-family: Montserrat;
+    margin-left: 10px;
+  }
+  
+  .column-container-definition {
+    display: flex;
+    margin-left: 10px;
+    width: 400px;
+    height: 40px;
+  }
+  
+  p {
+    font-family: Montserrat;
+  }
+  
+  .column-container-definition-explanation {
+    margin-left: 40px;
+  }
+  
